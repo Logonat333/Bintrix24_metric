@@ -1,0 +1,54 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs/runtime
+*.log
+logs/
+tmp/
+temp/
+cache/
+
+# Env/secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*credential*
+*credentials*
+
+# Dependency and build artifacts
+node_modules/
+vendor/
+venv/
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+coverage/
+
+# Local DB/dumps/reports/backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.bak
+*.tmp
+*.csv
+*.tsv
+reports/
+feedback/
+exports/

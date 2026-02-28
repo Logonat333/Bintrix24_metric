@@ -1,0 +1,52 @@
+/* metrics.css — стили для страницы активностей */
+.charts-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.charts-wrapper canvas {
+    flex: 1 1 300px;
+    max-width: 600px;
+    height: 300px;
+}
+form {
+    margin-bottom: 20px;
+}
+
+/* список администраторов настроек */
+.settings-admin-list {
+    margin-top: 10px;
+}
+.settings-admin-item {
+    display: flex;
+    align-items: center;
+    padding: 2px 4px;
+}
+.settings-admin-item .remove-btn {
+    display: none;
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: #c00;
+    cursor: pointer;
+}
+.settings-admin-item:hover .remove-btn {
+    display: inline;
+}
+
+/* форма планов метрик */
+form.metrics-plan-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
+
+form.metrics-plan-form label.metric-item {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    flex: 0 0 auto;
+}
